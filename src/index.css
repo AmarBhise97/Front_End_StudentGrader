@@ -26,6 +26,7 @@ body {
   margin: 0;
   display: flex;
   place-items: center;
+  scroll-behavior: smooth;
   min-width: 320px;
   min-height: 100vh;
 }
@@ -101,4 +102,8 @@ body {
 .btn-outline-danger:hover {
   background-color: #dc3545;
   color: white;
+}
+.html{
+
+  scroll-behavior: smooth;
 }

@@ -46,7 +46,7 @@ function AdminWithFetch() {
     setLoading(true);
     setError(null);
 
-    const url = "http://localhost:8080/admin/get-all-students";
+    const url = "https://student-graderbackend-2.onrender.com/admin/get-all-students";
     const basicAuth = "Basic " + btoa(currentUserEmail + ":" + password);
 
     fetch(url, {

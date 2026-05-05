@@ -18,7 +18,7 @@ const LoginForm = ({ onLogin, switchToSignup }) => {
       try {
         // Call backend login API
         const response = await axios.post(
-          "http://localhost:8080/students/login",
+          "https://student-graderbackend-2.onrender.com/students/login",
           values
         );
 
