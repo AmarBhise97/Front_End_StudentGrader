@@ -856,7 +856,7 @@ function AdminStudentData() {
     }
 
     setIsFetching(true);
-    const url = 'https://student-graderbackend-2.onrender.com/admin/get-all-students';
+    const url = 'https://grader-final-2.onrender.com/admin/get-all-students';
     const basicAuth = 'Basic ' + btoa(username + ':' + password);
 
     try {
